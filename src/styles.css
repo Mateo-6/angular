@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.my-input {
+  padding: 4px;
+  font-size: 15px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.my-input:focus {
+  border-color: #1a8fdd;
+}

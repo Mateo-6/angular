@@ -1,0 +1,11 @@
+<h2>Ejemplo FormGroup</h2>
+
+<form [formGroup]="myForm" (ngSubmit)="submitForm()">
+  <label for="name">Nombre:</label><br>
+  <input class="my-input" type="text" formControlName="name" id="name"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input class="my-input" type="email" formControlName="email" id="email"><br><br>
+
+  <button type="submit" [disabled]="myForm.invalid">Enviar</button>
+</form>
