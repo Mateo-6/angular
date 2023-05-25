@@ -172,3 +172,16 @@ svg#rocket-smoke {
     visibility: hidden;
   }
 }
+
+table, th, td {
+  border: 1px solid;
+}
+
+.tr {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+table tbody tr td {
+  cursor: pointer;
+}
